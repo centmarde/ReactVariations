@@ -6,11 +6,15 @@ import Col from "react-bootstrap/Col";
 
 function Hero() {
   return (
-    <Row>
-      
-        <br /> <br /> <br />
-       
-     
+    <Row  id="appbody">
+       <Col lg={7} md={4} xs={12}>
+        <h1 className="text-center" >Hello</h1>
+       </Col>
+
+       <Col lg={5} md={4} xs={12}>
+
+       </Col>
+    
     </Row>
   );
 }

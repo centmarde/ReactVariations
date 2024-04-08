@@ -19,12 +19,7 @@ function App() {
         </Row>
       </Container>
       <Container fluid>
-        <Row id="appbody">
-          <Col xs={12} md={4} lg={12}>
-            <Hero />
-          </Col>
-        </Row>
-
+        <Hero />
         <Row id="about">
           <Col xs={12} md={4} lg={12}></Col>
         </Row>
